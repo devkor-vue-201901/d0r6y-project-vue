@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vue Chapter 1 - Sample</title>
+  </head>
+  <body>
+    <div id="app">
+      {{ message }}
+    </div>
+    <script>
+      new Vue({
+        el : '#app',
+        data: {
+          message : 'Hello World! - by Vue.js'
+        }
+      }); <!-- 뷰 인스턴스 선언 -->
+    </script>
+  </body>
+</html>
